@@ -20,13 +20,13 @@ function divide(a, b){
 }
 
 function inc(a) {
- var number = a++;
- return number;
+  a++;
+ return a;
 }
 
 function dec(a) {
-var number = a--;
- return number;
+ a--;
+ return a;
 }
 
 function makeInt (a) {
